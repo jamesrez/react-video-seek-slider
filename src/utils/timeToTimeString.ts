@@ -8,5 +8,5 @@ export function timeToTimeString(
   secondsPrefix = ''
 ): string {
   const times = microsecondsToTime(seekHoverTime, offset);
-  return `${times.ms}:${times.mss}`;
+  return `${times.sec}${times.ms}:${times.mss}`;
 }
