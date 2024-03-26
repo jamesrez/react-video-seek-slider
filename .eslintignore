@@ -13,3 +13,5 @@ webpack.prod.js
 .eslintrc.js
 lib
 index.js
+src/utils/secondsToTime.ts
+src/utils/timeToTimeString.ts
